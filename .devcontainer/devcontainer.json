@@ -1,0 +1,7 @@
+{
+  "name": "Template Next Dev",
+  "image": "nextjs-dev-base:1.0",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "forwardPorts": [3000]
+}
